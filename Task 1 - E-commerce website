@@ -1,44 +1,525 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="theme-color" content="#000000">
-  <!--
-      manifest.json provides metadata used when your web app is added to the
-      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
-    -->
-  <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
-  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
-  <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-  <title>React App</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted%20Grotesk:wght@400;500;600;800&family=Lexend:wght@600&family=Inter:wght@300;400;500;600&family=Scada:wght@700&family=DM%20Sans:wght@700&display=swap">
-</head>
-
-<body>
-  <noscript>
-    You need to enable JavaScript to run this app.
-  </noscript>
-  <div id="root"></div>
-  <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-</body>
-
+" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500"
+    />
+    <title>HTML Preview</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="compiled-styles.css" />
+  </head>
+  <body style="margin: 0px">
+    <!-- This only removes default margins in our renderer iframe, you may remove -->
+    <div id="firejet-html-app">
+      <div class="landing-page-landing-page">
+        <div class="landing-page-t-section">
+          <div class="landing-page-section">
+            <div class="landing-page-header">
+              <div class="landing-page-ttt-logo-nav-tlogotext-thome-home-home-home-home" >
+                <div class="landing-page-tt-logo-nav-tlogotext">
+                  <div class="landing-page-t-logo-nav">
+                    <img
+                      src="/assets/logo-nav.png"
+                      loading="lazy"
+                      class="landing-page-logo-nav"
+                    />
+                  </div>
+                  <div class="landing-page-t-logotext">
+                    <div class="landing-page-logo-text">Aura Electronics</div>
+                  </div>
+                </div>
+                <div class="landing-page-t-home-home-home-home-home">
+                  <div>Home</div>
+                  <div>Products</div>
+                  <div>Blog</div>
+                  <div>FAQ</div>
+                  <div>Contact Us</div>
+                </div>
+              </div>
+              <div class="landing-page-t-vuesax-linear-search-normal-vuesax-outline-bag-vuesax-outline-user" >
+                <object
+                  data="/assets/Search.svg"
+                  class="landing-page-vuesax-linear-search-normal"
+                ></object
+                ><object
+                  data="/assets/Basket.svg"
+                  class="landing-page-vuesax-outline-bag"
+                ></object
+                ><object
+                  data="/assets/Profile.svg"
+                  class="landing-page-vuesax-outline-user"
+                ></object>
+              </div>
+            </div>
+            <div class="landing-page-t-heading">
+              <div class="landing-page-heading">
+                <p>Step Into the Future of Electronics</p>
+              </div>
+            </div>
+            <div class="landing-page-t-text">
+              <div class="landing-page-text">
+                <p>
+                  Immerse yourself in a 3D world of cutting-edge electronics.
+                  Discover innovation through seamless interaction
+                </p>
+              </div>
+            </div>
+            <div class="landing-page-ttt-button-3button">
+              <div class="landing-page-tt-button-3button">
+                <div class="landing-page-t-button">
+                  <div class="landing-page-button">
+                    <div class="landing-page-t-text-1">
+                      <div class="landing-page-text-1">Explore</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="landing-page-button-1">
+                  <div class="landing-page-t-text-2">
+                    <div class="landing-page-text-2">Discover</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="landing-page-t-explore-the-world-of-technologies-with-us">
+          <div class="landing-page-explore-the-world-of-technologies-with-us">
+            <p>Explore the world of technologies with us</p>
+          </div>
+        </div>
+        <div class="landing-page-t-slider">
+          <div class="landing-page-wrapper">
+            <div class="landing-page-slider">
+              <img
+                src="/assets/image.png"
+                loading="lazy"
+                class="landing-page-image"
+              />
+              <div class="landing-page-t-image">
+                <img
+                  src="/assets/image-1.png"
+                  loading="lazy"
+                  class="landing-page-image-1"
+                />
+              </div>
+              <div class="landing-page-t-image-1">
+                <img
+                  src="/assets/image-2.png"
+                  loading="lazy"
+                  class="landing-page-image-2"
+                />
+              </div>
+              <div class="landing-page-image-3"></div>
+            </div>
+          </div>
+        </div>
+        <div class="landing-page-section-1">
+          <div class="landing-page-phones-headphones-fridges-laptops-tv-and-more-products-with-exclusive-premium-offers-are-here" >
+            Phones , Headphones, Fridges , Laptops , TV and more products with
+            exclusive premium offers are here
+          </div>
+        </div>
+        <div class="landing-page-t-section-1">
+          <div class="landing-page-section-2">
+            <img
+              src="/assets/image-4.png"
+              loading="lazy"
+              class="landing-page-image-4"
+            />
+            <div class="landing-page-container">
+              <div class="landing-page-heading-1">
+                <p>Unlock the Future of Connectivity</p>
+              </div>
+            </div>
+            <img
+              src="/assets/image-5.png"
+              loading="lazy"
+              class="landing-page-image-5"
+            />
+          </div>
+        </div>
+        <div class="landing-page-container-1">
+          <img
+            src="/assets/image-6.png"
+            loading="lazy"
+            class="landing-page-image-6"
+          />
+          <div class="landing-page-t-frame">
+            <div class="landing-page-frame">
+              <div class="landing-page-t-best-sellers-tadd-to-cart-vuesax-outline-arrow-circle-right" >
+                <div class="landing-page-best-sellers">Best Sellers</div>
+                <div class="landing-page-t-add-to-cart-vuesax-outline-arrow-circle-right" >
+                  <div>View all</div>
+                  <object
+                    data="/assets/VuesaxOutlineArrowCircleRight.svg"
+                    class="landing-page-vuesax-outline-arrow-circle-right"
+                  ></object>
+                </div>
+              </div>
+              <object
+                data="/assets/Line.svg"
+                class="landing-page-line"
+              ></object>
+              <div class="landing-page-t-product-card-product-card-product-card-product-card" >
+                <div class="landing-page-product-card">
+                  <div class="landing-page-tt-image-tellipse">
+                    <div class="landing-page-t-image-tellipse">
+                      <img
+                        src="/assets/image-7.png"
+                        loading="lazy"
+                        class="landing-page-image-7"
+                      />
+                      <div class="landing-page-t-ellipse">
+                        <object
+                          data="/assets/Ellipse.svg"
+                          class="landing-page-ellipse"
+                        ></object>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="landing-page-t-line">
+                    <object
+                      data="/assets/Line1.svg"
+                      class="landing-page-line-1"
+                    ></object>
+                  </div>
+                  <div class="landing-page-t-title">
+                    <div class="landing-page-title"><p>EchoX Pro H900</p></div>
+                  </div>
+                  <div class="landing-page-ttt-new-price-tstar">
+                    <div class="landing-page-tt-new-price-tstar">
+                      <div class="landing-page-t-new-price">
+                        <div class="landing-page-new-price">$32.30</div>
+                      </div>
+                      <div class="landing-page-t-star">
+                        <object
+                          data="/assets/Star.svg"
+                          class="landing-page-star"
+                        ></object>
+                        <div class="landing-page-component">4.1</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="landing-page-product-card-1">
+                  <div class="landing-page-image-8">
+                    <object
+                      data="/assets/Heart.svg"
+                      class="landing-page-vuesax-outline-heart"
+                    ></object>
+                  </div>
+                  <object
+                    data="/assets/Line2.svg"
+                    class="landing-page-line-2"
+                  ></object>
+                  <div class="landing-page-t-title-1">
+                    <div class="landing-page-title-1">
+                      <p>Play Station 4 Pro 1Tb</p>
+                    </div>
+                  </div>
+                  <div class="landing-page-ttt-last-price-new-price-star-t">
+                    <div class="landing-page-tt-last-price-new-price-star">
+                      <div class="landing-page-t-last-price-new-price">
+                        <div class="landing-page-last-price">$1090.00</div>
+                        <div class="landing-page-new-price-1">$980.00</div>
+                      </div>
+                      <object
+                        data="/assets/Star.svg"
+                        class="landing-page-star-1"
+                      ></object>
+                    </div>
+                    <div class="landing-page-t">
+                      <div class="landing-page-component-1">4.4</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="landing-page-product-card-2">
+                  <div class="landing-page-tt-image-ttellipse-2ellipse">
+                    <div class="landing-page-t-image-ttellipse-2ellipse">
+                      <div class="landing-page-image-9"></div>
+                      <div class="landing-page-tt-ellipse-2ellipse">
+                        <div class="landing-page-t-ellipse-2ellipse">
+                          <object
+                            data="/assets/Ellipse1.svg"
+                            class="landing-page-ellipse-1"
+                          ></object
+                          ><object
+                            data="/assets/Ellipse2.svg"
+                            class="landing-page-ellipse-2"
+                          ></object>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="landing-page-t-line-1">
+                    <object
+                      data="/assets/Line1.svg"
+                      class="landing-page-line-3"
+                    ></object>
+                  </div>
+                  <div class="landing-page-t-title-2">
+                    <div class="landing-page-title-2">
+                      <p>
+                        Apple MacBook Air 15&quot; w/ Touch ID (2023) - Space
+                        Grey (Apple M2 Chip / 256GB SSD / 8GB RAM) - French
+                      </p>
+                    </div>
+                  </div>
+                  <div class="landing-page-ttt-new-price-tstar-1">
+                    <div class="landing-page-tt-new-price-tstar-1">
+                      <div class="landing-page-t-new-price-1">
+                        <div class="landing-page-new-price-2">$1883.05</div>
+                      </div>
+                      <div class="landing-page-t-star-1">
+                        <object
+                          data="/assets/Star.svg"
+                          class="landing-page-star-2"
+                        ></object>
+                        <div class="landing-page-component-2">4.5</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="landing-page-product-card-3">
+                  <div class="landing-page-ttt-image-tellipse-1tdiscount">
+                    <div class="landing-page-tt-image-tellipse-1tdiscount">
+                      <div class="landing-page-t-image-tellipse-1">
+                        <div class="landing-page-image-10"></div>
+                        <div class="landing-page-t-ellipse-1">
+                          <object
+                            data="/assets/Ellipse1.svg"
+                            class="landing-page-ellipse-3"
+                          ></object>
+                        </div>
+                      </div>
+                      <div class="landing-page-t-discount">
+                        <div class="landing-page-discount-amount">-10%</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="landing-page-t-line-2">
+                    <object
+                      data="/assets/Line1.svg"
+                      class="landing-page-line-4"
+                    ></object>
+                  </div>
+                  <div class="landing-page-t-title-3">
+                    <div class="landing-page-title-3"><p>Airpods pro2</p></div>
+                  </div>
+                  <div class="landing-page-tttt-last-price-new-price-star-t">
+                    <div class="landing-page-ttt-last-price-new-price-star-t1">
+                      <div class="landing-page-tt-last-price-new-price-star-1">
+                        <div class="landing-page-t-last-price-new-price-1">
+                          <div class="landing-page-last-price-1">$ 285.08</div>
+                          <div class="landing-page-new-price-3">$274.04</div>
+                        </div>
+                        <object
+                          data="/assets/Star.svg"
+                          class="landing-page-star-3"
+                        ></object>
+                      </div>
+                      <div class="landing-page-t-1">
+                        <div class="landing-page-component-3">4.2</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="landing-page-t-top-brands">
+            <div class="landing-page-top-brands">Top Brands</div>
+          </div>
+          <object
+            data="/assets/Line.svg"
+            class="landing-page-line-5"
+          ></object>
+          <div class="landing-page-t-frame-tvector-tvector-tg3thuawei-svgrepo-com-1tclip-path-group" >
+            <object
+              data="/assets/Frame.svg"
+              class="landing-page-frame-1"
+            ></object>
+            <div class="landing-page-t-vector">
+              <object
+                data="/assets/Vector.svg"
+                class="landing-page-vector"
+              ></object>
+            </div>
+            <div class="landing-page-t-vector-1">
+              <object
+                data="/assets/Vector1.svg"
+                class="landing-page-vector-1"
+              ></object>
+            </div>
+            <div class="landing-page-tg">
+              <object
+                data="/assets/G.svg"
+                class="landing-page-g"
+              ></object>
+            </div>
+            <div class="landing-page-t-huawei-svgrepo-com">
+              <object
+                data="/assets/HuaweiSvgrepoCom.svg"
+                class="landing-page-huawei-svgrepo-com"
+              ></object>
+            </div>
+            <div class="landing-page-t-clip-path-group">
+              <object
+                data="/assets/ClipPathGroup.svg"
+                class="landing-page-clip-path-group"
+              ></object>
+            </div>
+          </div>
+          <div class="landing-page-t-heading-1">
+            <div class="landing-page-heading-2">
+              <p>Experience the Future</p>
+            </div>
+          </div>
+          <div class="landing-page-t-text-3">
+            <div class="landing-page-text-3">
+              <p>
+                Unlock the full potential of your digital life with our
+                cutting-edge electronics. From lightning-fast processors to
+                immersive 3D displays, our products are engineered to redefine
+                the boundaries of what&apos;s possible
+              </p>
+            </div>
+          </div>
+          <div class="landing-page-t-button-1">
+            <div class="landing-page-button-2">
+              <div class="landing-page-text-4"><p>Shop Now</p></div>
+            </div>
+          </div>
+        </div>
+        <div class="landing-page-t-banner">
+          <div class="landing-page-wrapper-1">
+            <div class="landing-page-banner">
+              <div class="landing-page-tt-bg-ellipse-525frame">
+                <div class="landing-page-t-bg-ellipse-525frame">
+                  <object
+                    data="/assets/Ellipse3.svg"
+                    class="landing-page-bg-ellipse"
+                  ></object>
+                  <div class="landing-page-frame-2">
+                    <div class="landing-page-background"></div>
+                    <div class="landing-page-background-1"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="landing-page-t-smart-watch">
+                <div class="landing-page-smart-watch">SMART WATCH</div>
+              </div>
+              <div class="landing-page-various-designs-and-brands">
+                Various designs and brands
+              </div>
+              <div class="landing-page-t-frame-1">
+                <div class="landing-page-view">view</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="landing-page-t-text-4">
+          <div class="landing-page-text-5">
+            <p>
+              Stay Ahead with the Latest Advancements in Electronics and
+              Technology
+            </p>
+          </div>
+        </div>
+        <div class="landing-page-t-text-5">
+          <div class="landing-page-text-6">
+            <p>
+              Unlock the future of your digital life with our cutting-edge
+              electronics. Featuring lightning-fast processors and immersive 3D
+              displays, our products are designed to push the boundaries of
+              what’s possible.
+            </p>
+          </div>
+        </div>
+        <div class="landing-page-t-text-6">
+          <div class="landing-page-text-7">
+            Explore Our World-Class Products
+          </div>
+        </div>
+        <div class="landing-page-t-button-5button">
+          <div class="landing-page-button-3">
+            <div class="landing-page-t-text-7">
+              <div class="landing-page-text-8">Shop</div>
+            </div>
+          </div>
+          <div class="landing-page-button-4">
+            <div class="landing-page-t-text-8">
+              <div class="landing-page-text-9">Contact</div>
+            </div>
+          </div>
+        </div>
+        <div class="landing-page-t-footer">
+          <div class="landing-page-footer">
+            <div class="landing-page-t-logo-footer-tlinkcolumntitle-1tlinkcolumn-item-11linkcolumn-item-12linkcolumn-item-13tlinkcolumntitle-2tlinkcolumn-item-21linkcolumn-item-22linkcolumn-item-23tlinkcolumntitle-3tlinkcolumn-item-31linkcolumn-item-32linkcolumn-item" >
+              <img
+                src="/assets/logo-footer.png"
+                loading="lazy"
+                class="landing-page-logo-footer"
+              />
+              <div class="landing-page-t-linkcolumntitle-1tlinkcolumn-item-11linkcolumn-item-12linkcolumn-item" >
+                <div class="landing-page-link-column-title">Quick Links</div>
+                <div class="landing-page-t-linkcolumn-item-11linkcolumn-item">
+                  <div>Home</div>
+                  <div>About</div>
+                </div>
+                <div>Products</div>
+              </div>
+              <div class="landing-page-t-linkcolumntitle-2tlinkcolumn-item-21linkcolumn-item-22linkcolumn-item" >
+                <div class="landing-page-link-column-title-1">Company Info</div>
+                <div class="landing-page-t-linkcolumn-item-21linkcolumn-item">
+                  <div>Company</div>
+                  <div>Careers</div>
+                </div>
+                <div>Support</div>
+              </div>
+              <div class="landing-page-t-linkcolumntitle-3tlinkcolumn-item-31linkcolumn-item-32linkcolumn-item" >
+                <div class="landing-page-link-column-title-2">
+                  Connect With Us
+                </div>
+                <div class="landing-page-t-linkcolumn-item-31linkcolumn-item">
+                  <div>Facebook</div>
+                  <div>Twitter</div>
+                </div>
+                <div>Instagram</div>
+              </div>
+            </div>
+            <div class="landing-page-tt-logotext-tlinkcolumn-item-14tlinkcolumn-item-24tlinkcolumn-item" >
+              <div class="landing-page-t-logotext-tlinkcolumn-item">
+                <div class="landing-page-logo-text-1">
+                  <span
+                    ><p>© 2024 Aura Electronics, Inc.</p>
+                    <p>All rights reserved.</p></span
+                  >
+                </div>
+                <div class="landing-page-t-linkcolumn-item">
+                  <div>Contact</div>
+                </div>
+              </div>
+              <div class="landing-page-t-linkcolumn-item-1">
+                <div>Terms</div>
+              </div>
+              <div class="landing-page-link-column-item-11">LinkedIn</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
+
+<!--
+  This component was generated from Figma with FireJet. 
+  Learn more at https://www.firejet.io
+  
+  README:
+  The output code may look slightly different when copied to your codebase. To fix this:
+  1. Include the necessary fonts. The required fonts are imported from index.html
+  2. Include the global styles. They can be found in styles.css
+  
+  Note: Step 2 is not required for tailwind.css output
+-->
