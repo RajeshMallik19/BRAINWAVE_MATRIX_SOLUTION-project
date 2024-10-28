@@ -1,0 +1,134 @@
+<html>
+<head>
+    <title>HealthConnect</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #00c6ff, #0072ff);
+            color: #000;
+        }
+        .container {
+            padding: 20px;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+        .header h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+        .header .menu-icon {
+            font-size: 24px;
+        }
+        .section-title {
+            font-size: 18px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        .medication-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .medication-item p {
+            margin: 0;
+        }
+        .medication-item .edit-icon {
+            font-size: 16px;
+        }
+        .add-medication-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            border: none;
+            border-radius: 20px;
+            font-size: 16px;
+            margin: 20px 0;
+        }
+        .history-item, .interaction-item {
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .footer {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px;
+            background-color: #fff;
+            border-top: 1px solid #ccc;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .footer i {
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>HealthConnect</h1>
+            <i class="fas fa-bars menu-icon"></i>
+        </div>
+        <div class="section">
+            <div class="section-title">Current Medications</div>
+            <div class="medication-item">
+                <div>
+                    <p>Aspirin</p>
+                    <p>100mg, Next dose: 8:00 AM</p>
+                </div>
+                <i class="fas fa-pen edit-icon"></i>
+            </div>
+            <div class="medication-item">
+                <div>
+                    <p>Lisinopril</p>
+                    <p>10mg, Next dose: 9:00 PM</p>
+                </div>
+                <i class="fas fa-pen edit-icon"></i>
+            </div>
+            <button class="add-medication-btn">Add Medication</button>
+        </div>
+        <div class="section">
+            <div class="section-title">Medication History</div>
+            <div class="history-item">
+                <p>Lisinopril - Taken at 9:00 PM</p>
+                <p>Yesterday</p>
+            </div>
+            <div class="history-item">
+                <p>Aspirin - Taken at 8:00</p>
+                <p>Yesterday</p>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section-title">Dosage Reminders</div>
+            <p>Remind me every <input type="number" min="1" style="width: 50px;"> hours</p>
+        </div>
+        <div class="section">
+            <div class="section-title">Potential Interactions</div>
+            <div class="interaction-item">
+                <p>Aspirin may interact with Lisinopril</p>
+                <p>Consult your healthcare provider</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <i class="fas fa-home"></i>
+        <i class="fas fa-heart"></i>
+        <i class="fas fa-user"></i>
+        <i class="fas fa-arrow-left"></i>
+    </div>
+</body>
+</html>
