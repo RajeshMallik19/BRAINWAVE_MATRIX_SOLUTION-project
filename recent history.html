@@ -1,0 +1,127 @@
+<html>
+<head>
+    <title>HealthConnect</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #00c6ff, #0072ff);
+            color: #000;
+        }
+        .container {
+            width: 100%;
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+        }
+        .header h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+        .header .icon {
+            font-size: 24px;
+        }
+        .search-bar {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+        .section-title {
+            font-size: 18px;
+            margin: 20px 0 10px;
+        }
+        .conversation, .appointment, .telehealth, .upload {
+            background: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .conversation p, .appointment p, .telehealth p {
+            margin: 5px 0;
+        }
+        .appointment {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .appointment .reschedule {
+            background: #fff;
+            border: 1px solid #000;
+            border-radius: 20px;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        .telehealth {
+            text-align: center;
+        }
+        .telehealth button, .upload button {
+            background: #000;
+            color: #fff;
+            border: none;
+            border-radius: 20px;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .footer {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px 0;
+        }
+        .footer .icon {
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>HealthConnect</h1>
+            <i class="fas fa-bell icon"></i>
+        </div>
+        <input type="text" class="search-bar" placeholder="Search messages...">
+        <div class="section-title">Recent Conversations</div>
+        <div class="conversation">
+            <p><strong>Dr. Emily Johnson</strong></p>
+            <p>Your test results are ready. Let's discuss.</p>
+            <p style="text-align: right; color: gray;">10:45 AM</p>
+        </div>
+        <div class="conversation">
+            <p><strong>Nurse Sarah Lee</strong></p>
+            <p>Your appointment on Thursday has been confirmed.</p>
+            <p style="text-align: right; color: gray;">Yesterday</p>
+        </div>
+        <div class="section-title">Upcoming Appointments</div>
+        <div class="appointment">
+            <div>
+                <p><strong>Dr. John Smith</strong></p>
+                <p>March 15, 2023 - 2:00 PM</p>
+            </div>
+            <div class="reschedule">Reschedule</div>
+        </div>
+        <div class="section-title">Telehealth Services</div>
+        <div class="telehealth">
+            <p>Join a telehealth consultation with your provider.</p>
+            <button>Start Telehealth Session</button>
+        </div>
+        <div class="upload">
+            <button>Upload Medical Files</button>
+        </div>
+        <div class="footer">
+            <i class="fas fa-home icon"></i>
+            <i class="fas fa-bars icon"></i>
+            <i class="fas fa-arrow-left icon"></i>
+        </div>
+    </div>
+</body>
+</html>
