@@ -1,0 +1,156 @@
+<html>
+<head>
+    <title>HealthConnect</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #00c6ff, #0072ff);
+            color: #000;
+        }
+        .container {
+            width: 100%;
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 10px 0;
+        }
+        .header i {
+            font-size: 24px;
+            margin-right: 10px;
+        }
+        .header span {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .section-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        .input-field {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        .textarea-field {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            height: 100px;
+        }
+        .switch-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .switch-label {
+            font-size: 16px;
+        }
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 40px;
+            height: 20px;
+        }
+        .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            transition: .4s;
+            border-radius: 20px;
+        }
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 14px;
+            width: 14px;
+            left: 3px;
+            bottom: 3px;
+            background-color: white;
+            transition: .4s;
+            border-radius: 50%;
+        }
+        input:checked + .slider {
+            background-color: #2196F3;
+        }
+        input:checked + .slider:before {
+            transform: translateX(20px);
+        }
+        .footer {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            max-width: 400px;
+            background: #fff;
+            border-top: 1px solid #ccc;
+        }
+        .footer i {
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <i class="fas fa-user-circle"></i>
+            <span>HealthConnect</span>
+        </div>
+        <div class="section-title">Update Personal Information</div>
+        <input type="text" class="input-field" placeholder="Full Name">
+        <input type="text" class="input-field" placeholder="Date of Birth">
+        <input type="text" class="input-field" placeholder="Gender">
+        <div class="section-title">Medical History</div>
+        <textarea class="textarea-field" placeholder="Describe your medical history."></textarea>
+        <div class="section-title">Contact Details</div>
+        <input type="email" class="input-field" placeholder="Email Address">
+        <input type="text" class="input-field" placeholder="Phone Number">
+        <div class="section-title">Accessibility Settings</div>
+        <div class="switch-container">
+            <span class="switch-label">Enable Voice Commands</span>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider"></span>
+            </label>
+        </div>
+        <div class="switch-container">
+            <span class="switch-label">Dark Mode</span>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider"></span>
+            </label>
+        </div>
+    </div>
+    <div class="footer">
+        <i class="fas fa-home"></i>
+        <i class="fas fa-bars"></i>
+        <i class="fas fa-arrow-left"></i>
+    </div>
+</body>
+</html>
